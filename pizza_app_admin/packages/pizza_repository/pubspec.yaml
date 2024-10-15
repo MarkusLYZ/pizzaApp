@@ -1,0 +1,26 @@
+name: pizza_repository
+description: repository for pizzas
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # firebase_auth: ^4.16.0
+  cloud_firestore: ^4.9.2
+  # rxdart: ^0.27.7
+  # cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
