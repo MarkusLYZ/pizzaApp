@@ -3,6 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:pizza_app_admin/src/blocs/authenticationBloc/authentication_bloc.dart';
 
+import '../modules/auth/views/login_screen.dart';
+import '../modules/base/views/base_screen.dart';
+import '../modules/home/views/home_screen.dart';
+import '../modules/splash/views/splash_screen.dart';
+
 final _navKey = GlobalKey<NavigatorState>();
 final _shellNavigationKey = GlobalKey<NavigatorState>();
 
