@@ -5,10 +5,9 @@ import 'package:go_router/go_router.dart';
 import 'package:pizza_app_admin/app.dart';
 import 'package:pizza_app_admin/firebase_options.dart';
 import 'package:pizza_app_admin/simple_bloc_observer.dart';
-import 'package:url_strategy/url_strategy.dart';
+
 
 void main() async {
-  setPathUrlStrategy();
   GoRouter.optionURLReflectsImperativeAPIs = true;
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
