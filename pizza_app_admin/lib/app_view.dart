@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'src/blocs/authenticationBloc/authentication_bloc.dart';
+import 'src/routes/routes.dart';
+
 class MyAppView extends StatelessWidget {
   const MyAppView({super.key});
 
